@@ -1,0 +1,73 @@
+{
+  "documents": [],
+  "tables_parsed": [],
+  "tables_source_info": [],
+  "images": [
+    {
+      "original_name": "Screenshot 2025-11-25 231100",
+      "file_name": "Screenshot 2025-11-25 231100.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 231100.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 231100.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 231050",
+      "file_name": "Screenshot 2025-11-25 231050.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 231050.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 231050.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 231015",
+      "file_name": "Screenshot 2025-11-25 231015.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 231015.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 231015.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 231026",
+      "file_name": "Screenshot 2025-11-25 231026.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 231026.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 231026.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 230842",
+      "file_name": "Screenshot 2025-11-25 230842.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 230842.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 230842.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 230952",
+      "file_name": "Screenshot 2025-11-25 230952.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 230952.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 230952.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    },
+    {
+      "original_name": "Screenshot 2025-11-25 230912",
+      "file_name": "Screenshot 2025-11-25 230912.jpg",
+      "file_path": "/workspace/sally_tsm_agent/public/images/Screenshot 2025-11-25 230912.jpg",
+      "rel_path": "images/Screenshot 2025-11-25 230912.jpg",
+      "file_type": "jpg",
+      "category": "images"
+    }
+  ],
+  "summary": {
+    "total_files": 7,
+    "by_category": {
+      "documents": 0,
+      "tables_parsed": 0,
+      "tables_source_info": 0,
+      "images": 7
+    },
+    "processing_time": null
+  }
+}
