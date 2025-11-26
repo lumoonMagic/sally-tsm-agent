@@ -7,32 +7,17 @@ python-multipart==0.0.18
 pydantic==2.10.3
 pydantic-settings==2.6.1
 
-# Database drivers - PostgreSQL
+# PostgreSQL (primary for Railway)
 psycopg2-binary==2.9.10
 asyncpg==0.30.0
 
-# Database drivers - MySQL
-pymysql==1.1.1
-aiomysql==0.2.0
+# SQLite (optional)
+aiosqlite==0.20.0
 
-# Database drivers - MongoDB (fix version conflict)
-pymongo==4.9.1
-motor==3.6.0
-
-# Database drivers - Oracle
-cx-Oracle==8.3.0
-
-# Database drivers - SQLite
-sqlalchemy==2.0.36
-
-# AI/LLM
+# Gemini AI
 google-generativeai==0.8.3
 
 # Utilities
 python-dotenv==1.0.1
 python-dateutil==2.9.0
 httpx==0.28.1
-
-# Security
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
