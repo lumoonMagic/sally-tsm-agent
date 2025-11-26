@@ -1,28 +1,27 @@
-# Sally TSM Backend - Python Dependencies
+# FastAPI and server
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
 
-# Core Framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.4.2
-python-dotenv==1.0.0
+# Pydantic (compatible with Python 3.13)
+pydantic==2.10.3
+pydantic-settings==2.6.1
 
-# Database Drivers
-psycopg2-binary==2.9.9      # PostgreSQL
-pymysql==1.1.0              # MySQL
-cx-Oracle==8.3.0            # Oracle
-aiosqlite==0.19.0           # SQLite async
-asyncpg==0.29.0             # PostgreSQL async
-aiomysql==0.2.0             # MySQL async
+# Database drivers
+psycopg2-binary==2.9.10
+pymongo==4.10.1
+pymysql==1.1.1
+asyncpg==0.30.0
+cx-Oracle==8.3.0
 
-# Google Gemini AI
-google-generativeai==0.3.1
+# AI/LLM
+google-generativeai==0.8.3
 
-# Security & Utilities
-python-jose[cryptography]==3.3.0  # JWT tokens
-passlib[bcrypt]==1.7.4           # Password hashing
-python-multipart==0.0.6          # File uploads
-aiofiles==23.2.1                 # Async file operations
+# Utilities
+python-dotenv==1.0.1
+python-dateutil==2.9.0
+httpx==0.28.1
 
-# Additional utilities
-python-dateutil==2.8.2
-pytz==2023.3
+# CORS
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
