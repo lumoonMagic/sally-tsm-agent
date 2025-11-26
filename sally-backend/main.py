@@ -403,6 +403,43 @@ async def startup_event():
         logger.warning("⚠ Gemini API key not configured")
     
     logger.info("="*60)
+@app.get("/api/v1/database/test")
+async def test_database():
+    """Test database connection"""
+    import os
+    import psycopg2
+    
+    db_url = os.getenv("DATABASE_URL")
+    
+    if not db_url:
+        return {
+            "success": False,
+            "message": "DATABASE_URL not configured"
+        }
+    
+    try:
+        # Try to connect
+        conn = psycopg2.connect(db_url)
+        cursor = conn.cursor()
+        
+        # Test query
+        cursor.execute("SELECT version();")
+        version = cursor.fetchone()[0]
+        
+        cursor.close()
+        conn.close()
+        
+        return {
+            "success": True,
+            "message": "Database connection successful",
+            "database_version": version[:50]  # First 50 chars
+        }
+    
+    except Exception as e:
+        return {
+            "success": False,
+            "message": f"Connection failed: {str(e)}"
+        }
 
 # ============================================================================
 # Main Entry Point
