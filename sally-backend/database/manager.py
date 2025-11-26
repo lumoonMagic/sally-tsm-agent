@@ -50,8 +50,8 @@ class DatabaseManager:
     Unified database manager supporting Postgres, MySQL, SQLite, Oracle, MongoDB
     """
 
-    def __init__(self, config: Dict[str, Any]):
-        self.config = config
+   def __init__(self, config: Optional[Dict[str, Any]] = None):
+        self.config = config or {}
         self.connection = None
         self.db = None
 
