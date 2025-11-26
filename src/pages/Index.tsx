@@ -17,7 +17,7 @@ import { useApp } from '@/contexts/AppContext';
 import { OnDemandQA } from '@/components/OnDemandQA';
 import { MorningBrief } from '@/components/MorningBrief';
 import { EndOfDaySummary } from '@/components/EndOfDaySummary';
-import { ConfigurationCockpit } from '@/components/ConfigurationCockpit';
+import ConfigurationCockpit from '@/components/ConfigurationCockpit';
 
 type ActiveSection = 'qa' | 'morning' | 'summary' | 'config';
 
