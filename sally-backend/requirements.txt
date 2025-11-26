@@ -3,16 +3,27 @@ fastapi==0.115.5
 uvicorn[standard]==0.32.1
 python-multipart==0.0.18
 
-# Pydantic (compatible with Python 3.13)
+# Pydantic
 pydantic==2.10.3
 pydantic-settings==2.6.1
 
-# Database drivers
+# Database drivers - PostgreSQL
 psycopg2-binary==2.9.10
-pymongo==4.10.1
-pymysql==1.1.1
 asyncpg==0.30.0
+
+# Database drivers - MySQL
+pymysql==1.1.1
+aiomysql==0.2.0
+
+# Database drivers - MongoDB
+pymongo==4.10.1
+motor==3.6.0
+
+# Database drivers - Oracle
 cx-Oracle==8.3.0
+
+# Database drivers - SQLite (built-in, but add SQLAlchemy)
+sqlalchemy==2.0.36
 
 # AI/LLM
 google-generativeai==0.8.3
@@ -22,6 +33,9 @@ python-dotenv==1.0.1
 python-dateutil==2.9.0
 httpx==0.28.1
 
-# CORS
+# Security (optional but recommended)
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
+
+# CORS
+python-multipart==0.0.18
